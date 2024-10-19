@@ -33,7 +33,7 @@ function validateForm() {
     entry ? false : true
   );
   if (done) {
+     // AJAX POST Request - inputs array
     inputs.forEach((input) => (input.value = ""));
-    // AJAX POST Request
   }
 }
